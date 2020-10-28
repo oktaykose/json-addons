@@ -4,11 +4,12 @@ There are simple and useful functions developed for JSONs. It is developed for j
 `$ npm i json-addons`
 
 
-###Addons
-####filterByValue
+### Addons
+
+#### filterByValue
 JSON data only if the isContaing value is true according to the value of the key you specified, shows those that contain that value. If false, shows those that don't contain that value.
 
-#####How to use ?
+##### How to use ?
 ```js
 import { filterByValue } from 'json-addons'
 
@@ -54,10 +55,10 @@ filterByValue(key, value, isContaing, isCaseSensitive)
 
 ----
 
-####sortByValue
+#### sortByValue
 It ensures that JSON is sorted correctly by making a letter-based search with the key and key value you specify. It also checks if the specified value exists in json.
 
-#####How to use ?
+##### How to use ?
 ```js
 import { sortByValue } from 'json-addons'
 
