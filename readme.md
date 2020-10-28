@@ -7,7 +7,7 @@ There are simple and useful functions developed for JSONs. It is developed for j
 ### Addons
 
 #### filterByValue
-JSON data only if the isContaing value is true according to the value of the key you specified, shows those that contain that value. If false, shows those that don't contain that value.
+JSON data only if the isIncluded value is true according to the value of the key you specified, shows those that contain that value. If false, shows those that don't contain that value.
 
 ##### How to use ?
 ```js
@@ -48,9 +48,8 @@ let useObj = Obj.filterByValue('productName', 'computer')
 
 ##### Also
 ```js
-filterByValue(key, value, isContaing, isCaseSensitive)
-//isContaing, default value true
-//isCaseSensitive, default value true
+filterByValue(key, value, isIncluded)
+//isIncluded, default value true
 ```
 
 ----
