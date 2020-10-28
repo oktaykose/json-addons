@@ -13,7 +13,8 @@ JSON data only if the isIncluded value is true according to the value of the key
 ```js
 import { filterByValue } from 'json-addons'
 
-let Obj = [{
+let Obj = [
+    {
         id: 1,
         productName: 'Cheap 15.6 Inch Computer 8GB+512GB 1920*1080 FHD IPS Laptops Computer'
     },
@@ -35,14 +36,18 @@ let useObj = Obj.filterByValue('productName', 'computer')
 
 // useObj Output:
 [
-   {
-      "id":3,
-      "productName":"15.6 inch Ultrabook Intel J4105 IPS 8GB slim gaming office 512GB computer laptops"
-   },
-   {
-      "id":4,
-      "productName":"Laptop computer, ready to ShipIn Stock Fast Dispatch cheap mini notebook netbook price use"
-   }
+    {
+        id: 1,
+        productName: 'Cheap 15.6 Inch Computer 8GB+512GB 1920*1080 FHD IPS Laptops Computer'
+    },
+    {
+        id: 3,
+        productName: '15.6 inch Ultrabook Intel J4105 IPS 8GB office 512GB computer laptops'
+    },
+    {
+        id: 4,
+        productName: 'Laptop computer, ready to ShipIn Stock Fast Dispatch cheap netbook'
+    }
 ]
 ```
 
