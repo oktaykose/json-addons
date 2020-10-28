@@ -1,6 +1,6 @@
 const convertString = require('../helpers/convert-string')
 
-module.exports = Object.prototype.filterByValue = function (key, value, isIncluded = true) {
+module.exports = Array.prototype.filterByValue = function (key, value, isIncluded = true) {
     const checkRules = (key, val) => {
         let _key = convertString(key).toUpperCase(),
             _val = convertString(val).toUpperCase()

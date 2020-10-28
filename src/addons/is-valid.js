@@ -1,3 +1,3 @@
-module.exports = Object.prototype.isValid = function () {
+module.exports = Array.prototype.isValid = function () {
     return (typeof this === "object")
 }
