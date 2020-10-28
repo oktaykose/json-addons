@@ -1,7 +1,19 @@
 {
   "name": "json-addons",
-  "version": "0.0.6",
-  "description": "",
+  "version": "0.0.7",
+  "description": "There are simple and useful functions developed for JSONs.",
+  "keywords": [
+    "JSON",
+    "json",
+    "Object",
+    "Obj",
+    "filter",
+    "Json",
+    "key",
+    "value",
+    "priority",
+    "sort"
+  ],
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
