@@ -1,7 +1,7 @@
 const convertString = require('../helpers/convert-string')
 const characterCounter = require('../helpers/character-counter')
 
-module.exports = Array.prototype.sortByValue = function (key, value) {
+module.exports = Object.prototype.sortByValue = function (key, value) {
 
     const prioritization = (key, val) => {
         let valUpper = val.toUpperCase()

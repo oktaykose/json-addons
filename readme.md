@@ -66,7 +66,8 @@ It ensures that JSON is sorted correctly by making a letter-based search with th
 ```js
 import { sortByValue } from 'json-addons'
 
-let Obj = [{
+let Obj = [
+    {
         id: 1,
         productName: 'Cheap 15.6 Inch Computer 8GB+512GB 1920*1080 FHD IPS Laptops Computer'
     },
