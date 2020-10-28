@@ -1,3 +1,7 @@
+const characterCounter = (string, char) => {
+    return string.split(char).length - 1
+}
+
 const convertString = phrase => {
     const maxLength = 100
 
@@ -19,4 +23,7 @@ const convertString = phrase => {
     return returnString
 }
 
-module.exports = convertString
+module.exports = {
+    characterCounter,
+    convertString
+}

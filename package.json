@@ -1,6 +1,6 @@
 {
   "name": "json-addons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "There are simple and useful functions developed for JSONs.",
   "keywords": [
     "JSON",
@@ -12,7 +12,12 @@
     "key",
     "value",
     "priority",
-    "sort"
+    "sort",
+    "groupby",
+    "isobject",
+    "isempty",
+    "stringify",
+    "parse"
   ],
   "main": "src/index.js",
   "scripts": {
